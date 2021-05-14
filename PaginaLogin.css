@@ -1,0 +1,16 @@
+header{background-color: blue;}
+
+body{background-color: cornflowerblue;}
+
+input{
+    display: block;
+}
+
+.inputs{
+    margin: 20px;
+}
+
+.button-ingresar{
+    background-color: cyan;
+    border-color: darkblue;
+}

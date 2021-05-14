@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="PaginaLogin.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Descuentos en farmacia</h1>
+    </header>
+
+    <form action="PaginaPrincipal.html" onsubmit="return validateForm()">
+        <div class="inputs">
+            <label for="usuario">Usuario:</label>
+            <input id="name" type="text" name="usuario" placeholder="usuario" required>
+        </div>
+        <div class="inputs">
+            <label for="password">Contrasena:</label>
+            <input type="password" name="password" placeholder="contrasena" required minlength="4">
+        </div>
+        <div class="inputs">
+            <input class="button-ingresar" type="submit" value="INGRESAR">
+        </div>
+
+
+        </from>
+        <script src="PaginaLogin.js"></script>
+
+</body>
+
+</html>

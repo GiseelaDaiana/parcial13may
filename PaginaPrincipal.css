@@ -1,0 +1,12 @@
+.tarjeta{
+    background-color: aqua;
+    text-align: center;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: blue;
+ }
+
+header{background-color: blue;}
+body{background-color: cornflowerblue;}
